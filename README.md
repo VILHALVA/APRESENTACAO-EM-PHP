@@ -10,7 +10,7 @@ A aplicação "Apresentação em PHP" consiste em duas páginas interligadas: um
 ## EXECUTANDO O PROJETO:
 1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.html).
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.html](http://localhost/CODIGO/index.html).
 
 2. **Executando o Aplicativo com `php.exe`:**
    - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
