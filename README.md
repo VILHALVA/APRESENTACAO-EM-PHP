@@ -8,11 +8,18 @@
 A aplicação "Apresentação em PHP" consiste em duas páginas interligadas: uma página de formulário para os usuários se apresentarem e outra página para processar e exibir as informações submetidas pelo usuário.
 
 ## EXECUTANDO O PROJETO:
-1. **Executando o Aplicativo:**
+1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.html`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.html).
 
-2. **Interagir com o Projeto:**
+2. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080/index.html](http://localhost:8080/index.html).
+
+3. **Interagir com o Projeto:**
    1. **Preencher o Formulário:**
       - Acesse a página `index.html` pelo navegador.
       - Preencha os campos "Nome" e "Sobrenome" no formulário apresentado.
